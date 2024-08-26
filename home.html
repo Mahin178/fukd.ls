@@ -1,0 +1,33 @@
+    {% extends 'pages/base.html' %}
+    {% load static %}
+    {% block content %}
+
+    {% block title %}
+    <title>Home</title>
+    <!-- Add this in the <head> section of your base.html -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <link rel="stylesheet" href="home.css">
+    {% endblock title %}
+    <div class="section full-height">
+    <div class="absolute-center">
+        <div class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1>
+                            <span>Your Tech Journey Starts Here</span>
+                        </h1>
+                        <p><strong>Best Tech Agency of Bangladesh</strong></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="get-started-button">
+        <a href="#" class="btn-primary"><span>Get started <i class="fas fa-arrow-circle-right"></i></span></a>
+    </div>
+    </div>
+
+{% endblock content %}
